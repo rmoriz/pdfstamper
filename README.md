@@ -2,6 +2,8 @@
 
 Merges two pdf files (Overlay), similar to `pdftk stamp` but using Apache PDFBox 2.
 
+<img src="https://raw.githubusercontent.com/rmoriz/pdfstamper/master/misc/example.png">
+
 
 ## Usage
 ````
