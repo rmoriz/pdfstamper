@@ -34,8 +34,8 @@ add:
 #!/bin/sh
 #
 #
-STAMPER="java -jar /Users/path/to/pdfstamper.jar"
-TEMPLATE="/Users/path/to/stationery.pdf"
+JAVA="/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java"
+STAMPER="$JAVA -jar /Users/rmoriz/Dropbox/bin/pdfstamper.jar"
 
 $STAMPER -i "$3" -t "$TEMPLATE" -o "/tmp/$1.pdf"
 open -W "/tmp/$1.pdf"
